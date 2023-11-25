@@ -1,24 +1,25 @@
-:root {
+<style>
+	:root {
 	--dark: #ffebcd;
 	--darker: #836953;
 	--darkest: #836953;
 	--black: #000;
 	--black: #000;
-	--linen: #000;
+	--linen: #faf0e6 ;
 	--black: #000;
 }
 
 * {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Fira sans",;
+	font-family: sans-serif;
 }
 
 body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	color: white;
+	color: #FFF;
 	background-color: pink;
 }
 
@@ -32,8 +33,9 @@ header {
 header h1{ 
 	font-size: 2.5rem;
 	font-weight: 300;
-	color: var(--black);
+	color: White;
 	margin-bottom: 1rem;
+	font-size: 75;
 }
 
 #new-task-form {
@@ -49,16 +51,17 @@ input, button {
 
 #new-task-input {
 	flex: 1 1 0%;
-	background-color: var(--darker);
+	background-color: pink;
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
-	color: var(--black);
+	color: white;
 	font-size: 1.25rem;
+	font-family: Times New Roman;
 }
 
 #new-task-input::placeholder {
-	color: var(--black);
+	color: White;
 }
 
 #new-task-submit {
@@ -73,11 +76,11 @@ input, button {
 }
 
 #new-task-submit:hover {
-	opacity: 0.8;
+	opacity: 100;
 }
 
 #new-task-submit:active {
-	opacity: 0.6;
+	opacity: 100;
 }
 
 main {
@@ -88,20 +91,22 @@ main {
 }
 
 .task-list {
-	padding: 1rem;
+	padding: 2rem;
 }
 
 .task-list h2 {
 	font-size: 1.5rem;
 	font-weight: 300;
-	color: var(--black);
+	color: white;
 	margin-bottom: 1rem;
+	font-size: 50;
+	font-family: Times New Roman;
 }
 
 #tasks .task {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--darkest);
+	background-color: pink;
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
@@ -112,7 +117,7 @@ main {
 }
 
 .task .content .text {
-	color: var(--black);
+	color: white;
 	font-size: 1.125rem;
 	width: 100%;
 	display: block;
@@ -138,11 +143,11 @@ main {
 }
 
 .task .actions button:hover {
-	opacity: 0.8;
+	opacity: 100;
 }
 
 .task .actions button:active {
-	opacity: 0.6;
+	opacity: 1;
 }
 
 .task .actions .edit {
@@ -152,5 +157,6 @@ main {
 }
 
 .task .actions .delete {
-	color: black;
-	}
+	color: crimson;
+}
+	</style>
