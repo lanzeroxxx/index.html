@@ -18,8 +18,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	color: #red;
-	background-color: var(--dark);
+	color: #pink;
+	background-color: pink;
 }
 
 header {
